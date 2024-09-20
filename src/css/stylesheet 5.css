@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+.navbar {
+    background-color: #6a1b9a;
+    padding: 10px 0;
+    color: white;
+}
+
+.navbar-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+input {
+    padding: 12px 20px 12px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(72, 50, 133) ;
+    border: 0px solid #fff;
+    font-size: 20px;
+    background-image: url(../img/search.png);
+    background-size: 25px;
+    background-position: 9px 14px;
+    background-repeat: no-repeat;
+}
+
+.table-container {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    color: #666;
+    background-color: #f3f4f6;
+}
+
+tbody tr {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+td {
+    padding: 15px 10px;
+    vertical-align: middle;
+    background-color: #fff;
+    border-bottom: none;
+}
+
+td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 550;
+    color: white;
+}
+
+.blue {
+    color: rgb(0, 123, 255); 
+    background-color: rgb(0, 123, 255, 10%); 
+}
+
+.red {
+    color: rgb(220, 53, 69); 
+    background-color: rgb(220, 53, 69, 10%); 
+}
+
+.green { 
+    color: rgb(40, 167, 69);
+    background-color: rgb(40, 167, 69, 10%); 
+}
+
+.purple { 
+    color: rgb(111, 66, 193);
+    background-color: rgb(111, 66, 193, 10%); 
+}
+
+.yellow { 
+    color: #ffc107;
+    background-color: rgb(255, 193, 7, 20%); 
+}
+
+.show-more {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px
+}
+
+.show-more:hover {
+    background-color: #ccc;
+}
